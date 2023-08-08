@@ -1,10 +1,11 @@
 import React, {useState} from "react";
+import { auth } from "./firebase";
 import firebase from "./firebase";
-import firebase from 'firebase/app';
-import 'firebase/firestore';
+// import firebase from 'firebase/app';
+// import 'firebase/firestore';
 
 async function Register(){
-    const [fromData,setFromData] = useState({
+    const [fromData, setFromData] = useState({
 
         username: "", 
         email: "", 
@@ -59,7 +60,7 @@ async function Register(){
         //Function that allow the users to sign-in with either their registered email or username
 
         const db = firebase.firestore()
-        db.collection(users).doc(fromData.username).set({
+        db.collection("users").doc(fromData.username).set({
             email: fromData.email,
         });
     }
@@ -77,23 +78,23 @@ async function Register(){
     return (
     <form onSubmit={handleSubmit}>
         <label>
-            Username: <input type = "text" name = "username" value = {FormData.username} onChange = {handleChange} reequired />
+            Username: <input type = "text" name = "username" value = {fromData.username} onChange = {handleChange} reequired />
         </label>
 
         <label>
-            Email: <input type = "text" name = "email" value = {FormData.email} onChange = {handleChange} reequired />
+            Email: <input type = "text" name = "email" value = {fromData.email} onChange = {handleChange} reequired />
         </label>
 
         <label>
-            Confirm Email: <input type = "text" name = "confirmEmail" value = {FormData.confirmEmail} onChange = {handleChange} reequired />
+            Confirm Email: <input type = "text" name = "confirmEmail" value = {fromData.confirmEmail} onChange = {handleChange} reequired />
         </label>
 
         <label>
-            Password: <input type = "text" name = "password" value ={FormData.password} onChange = {handleChange} required />
+            Password: <input type = "text" name = "password" value ={fromData.password} onChange = {handleChange} required />
         </label>
 
         <label>
-            Confirm Password: <input type = "text" name = "password" value = {FormData.confirmPassword} onChange={handleChange} required />
+            Confirm Password: <input type = "text" name = "password" value = {fromData.confirmPassword} onChange={handleChange} required />
         </label>
         <button type = "submit"> Register </button>
     </form>
