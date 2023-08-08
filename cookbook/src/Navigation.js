@@ -10,8 +10,9 @@ const Navigation = () => {
     return (
 
         <nav>
-            <Link to = "/profile"> Profile</Link>
-            <Link to = "/account">Setting</Link>
+            <Link to="/register">Register</Link>
+            <Link to="/signin">Sign In</Link>
+            <Link to="/profile">Profile</Link>
             <button onClick={handleLogout}>Log Out</button>
         </nav>
 

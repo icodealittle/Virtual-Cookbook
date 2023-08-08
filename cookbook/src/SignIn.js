@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
 import firebase from "./firebase";
+import { auth, db } from "./firebase";
+
 
 const SignIn = async () => {
     const [fromData, setFromData] = useState({
@@ -17,13 +19,12 @@ const SignIn = async () => {
 
         let email = fromData.userIdentifier;
         if (!email.includes("@")){
-            const db = firebase.firestore();
             const userDocument = await db.collection("users").doc(email).get();
             email = userDocument.data().email;
         }
 
         try {
-            await firebase.auth().signInWithEmailAndPassword(email, fromData.password);
+            await auth.signInWithEmailAndPassword(email, fromData.password);
             alert("Sign in successful.");
         } catch (error) {
             alert("An error occured. Please try again.")

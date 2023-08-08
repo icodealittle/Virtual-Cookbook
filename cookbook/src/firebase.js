@@ -1,6 +1,7 @@
 import firebase from "firebase/app";
 import "firebase/auth";
-// import 'firebase/firestore';
+import 'firebase/firestore';
+import 'firebase/storage';
 
 const firebaseConfig = {
   apiKey: "AIzaSyCBUyoLnPlaLcsUgc68D9hno4dWOJLIqdw",
@@ -13,4 +14,12 @@ const firebaseConfig = {
 };
 
 firebase.initializeApp(firebaseConfig);
-export const auth = firebase.auth();
+
+const db = firebase.firestore();
+const auth = firebase.auth();
+const storage = firebase.storage();
+
+export { db, auth, storage };
+export const sendPasswordResetEmail = (email) => {
+  return auth.sendPasswordResetEmail(email);
+}

@@ -2,8 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from "./Home";
 import Profile from "./Profile";
-import Settings from "./Setting";
-import Login from "./SignIn";
+import Setting from "./Setting";
+import SignIn from "./SignIn";
 import Register from "./Register";
 
 function App(){

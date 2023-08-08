@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import { auth } from "./firebase";
-import firebase from "./firebase";
+import { auth, db} from "./firebase";
+
 // import firebase from 'firebase/app';
 // import 'firebase/firestore';
 
@@ -58,15 +58,13 @@ async function Register(){
         };
 
         //Function that allow the users to sign-in with either their registered email or username
-
-        const db = firebase.firestore()
         db.collection("users").doc(fromData.username).set({
             email: fromData.email,
         });
     }
 
     try {
-        const userCredentials = await firebase.auth().createUserWithEmailAndPassword(fromData.email, fromData.password);
+        const userCredentials = await auth.createUserWithEmailAndPassword(fromData.email, fromData.password);
         const user = userCredentials.user;
         await user.updateProfile({displayName: fromData.username});
         await user.sendEmailVerificationEmail();
@@ -78,15 +76,15 @@ async function Register(){
     return (
     <form onSubmit={handleSubmit}>
         <label>
-            Username: <input type = "text" name = "username" value = {fromData.username} onChange = {handleChange} reequired />
+            Username: <input type = "text" name = "username" value = {fromData.username} onChange = {handleChange} required />
         </label>
 
         <label>
-            Email: <input type = "text" name = "email" value = {fromData.email} onChange = {handleChange} reequired />
+            Email: <input type = "text" name = "email" value = {fromData.email} onChange = {handleChange} required />
         </label>
 
         <label>
-            Confirm Email: <input type = "text" name = "confirmEmail" value = {fromData.confirmEmail} onChange = {handleChange} reequired />
+            Confirm Email: <input type = "text" name = "confirmEmail" value = {fromData.confirmEmail} onChange = {handleChange} required />
         </label>
 
         <label>
