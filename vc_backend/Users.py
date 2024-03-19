@@ -1,11 +1,13 @@
 import random
 import string
+from typing import List
 
 
 class Users:
     auth_code: str
     password: str
     email: str
+    allergies: List[str]
 
     def generate_random(self):
         x = ""

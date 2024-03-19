@@ -1,0 +1,241 @@
+[
+  {
+    "recipe_body": "Preheat oven to 350 degrees F (175 degrees C). Grease and flour a 9-inch round cake pan. In a large bowl, mix together flour, sugar, baking powder, and salt. Stir in milk, oil, and vanilla extract until batter is smooth. Pour batter into prepared pan. Bake in preheated oven for 30 to 35 minutes, or until a toothpick inserted into the center comes out clean. Let cool before serving.",
+    "recipe_title": "Vanilla Cake",
+    "email": "baker@example.com",
+    "submitted_date": "2024-03-19",
+    "reviews": {
+      "user1": {
+        "comment": "Simple and delicious!",
+        "rating": "5"
+      },
+      "user2": {
+        "comment": "Great cake recipe!",
+        "rating": "4"
+      }
+    },
+    "rating": 4.5,
+    "ingredients": [
+      "1 1/2 cups all-purpose flour",
+      "1 cup white sugar",
+      "1 1/2 teaspoons baking powder",
+      "1/2 teaspoon salt",
+      "1/2 cup milk",
+      "1/2 cup vegetable oil",
+      "2 teaspoons vanilla extract"
+    ]
+  },
+  {
+    "recipe_body": "Preheat oven to 375 degrees F (190 degrees C). Grease a 9x5-inch loaf pan. In a large bowl, cream together butter and sugar until light and fluffy. Beat in eggs, one at a time, then stir in vanilla. Combine flour, baking powder, and salt; stir into the creamed mixture alternately with milk. Fold in blueberries. Pour batter into prepared pan. Bake in preheated oven for 60 to 70 minutes, or until a toothpick inserted into the center comes out clean.",
+    "recipe_title": "Blueberry Bread",
+    "email": "cook@example.com",
+    "submitted_date": "2024-03-19",
+    "reviews": {
+      "user1": {
+        "comment": "Amazing bread!",
+        "rating": "5"
+      },
+      "user2": {
+        "comment": "Delicious!",
+        "rating": "4"
+      }
+    },
+    "rating": 4.5,
+    "ingredients": [
+      "1/2 cup butter, softened",
+      "1 cup white sugar",
+      "2 eggs",
+      "1 teaspoon vanilla extract",
+      "2 cups all-purpose flour",
+      "2 teaspoons baking powder",
+      "1/2 teaspoon salt",
+      "1/2 cup milk",
+      "1 1/2 cups fresh blueberries"
+    ]
+  },
+  {
+    "recipe_body": "Preheat oven to 350 degrees F (175 degrees C). Grease and flour a 9x13-inch baking dish. In a large bowl, cream together butter and sugar until light and fluffy. Beat in eggs, one at a time, then stir in vanilla. Combine flour, baking powder, and salt; stir into the creamed mixture alternately with milk. Spread batter evenly into prepared pan. Bake in preheated oven for 25 to 30 minutes, or until a toothpick inserted into the center comes out clean. Let cool completely before frosting.",
+    "recipe_title": "Yellow Sheet Cake",
+    "email": "chef@example.com",
+    "submitted_date": "2024-03-19",
+    "reviews": {
+      "user1": {
+        "comment": "Delicious cake!",
+        "rating": "5"
+      },
+      "user2": {
+        "comment": "Great recipe!",
+        "rating": "4"
+      }
+    },
+    "rating": 4.5,
+    "ingredients": [
+      "1/2 cup butter, softened",
+      "1 cup white sugar",
+      "2 eggs",
+      "1 teaspoon vanilla extract",
+      "1 1/2 cups all-purpose flour",
+      "1 3/4 teaspoons baking powder",
+      "1/2 teaspoon salt",
+      "1/2 cup milk"
+    ]
+  },
+  {
+    "recipe_body": "Preheat oven to 375 degrees F (190 degrees C). Grease a 9x13-inch baking dish. In a large bowl, mix together ground beef, bread crumbs, onion, egg, salt, and pepper until well combined. Shape mixture into 1-inch meatballs. Arrange meatballs in prepared baking dish. Bake in preheated oven for 25 to 30 minutes, or until cooked through.",
+    "recipe_title": "Baked Meatballs",
+    "email": "chef@example.com",
+    "submitted_date": "2024-03-19",
+    "reviews": {
+      "user1": {
+        "comment": "Delicious meatballs!",
+        "rating": "5"
+      },
+      "user2": {
+        "comment": "Great recipe!",
+        "rating": "4"
+      }
+    },
+    "rating": 4.5,
+    "ingredients": [
+      "1 pound ground beef",
+      "1/2 cup bread crumbs",
+      "1/4 cup finely chopped onion",
+      "1 egg",
+      "1 teaspoon salt",
+      "1/4 teaspoon ground black pepper"
+    ]
+  },
+  {
+    "recipe_body": "In a large bowl, mix together mayonnaise, sugar, vinegar, salt, and pepper until sugar is dissolved. Add coleslaw mix and toss until evenly coated. Cover and refrigerate for at least 2 hours before serving.",
+    "recipe_title": "Classic Coleslaw",
+    "email": "cook@example.com",
+    "submitted_date": "2024-03-19",
+    "reviews": {
+      "user1": {
+        "comment": "Great coleslaw!",
+        "rating": "5"
+      },
+      "user2": {
+        "comment": "Delicious!",
+        "rating": "4"
+      }
+    },
+    "rating": 4.5,
+    "ingredients": [
+      "1/2 cup mayonnaise",
+      "2 tablespoons white sugar",
+      "2 tablespoons vinegar",
+      "1/2 teaspoon salt",
+      "1/4 teaspoon ground black pepper",
+      "1 (16-ounce) package coleslaw mix"
+    ]
+  },
+  {
+    "recipe_body": "Preheat oven to 350 degrees F (175 degrees C). Grease a 9x5-inch loaf pan. In a large bowl, cream together butter and sugar until light and fluffy. Beat in eggs, one at a time, then stir in vanilla. Combine flour, baking powder, and salt; stir into the creamed mixture alternately with milk. Fold in chocolate chips. Pour batter into prepared pan. Bake in preheated oven for 60 to 70 minutes, or until a toothpick inserted into the center comes out clean.",
+    "recipe_title": "Chocolate Chip Bread",
+    "email": "baker@example.com",
+    "submitted_date": "2024-03-19",
+    "reviews": {
+      "user1": {
+        "comment": "Amazing bread!",
+        "rating": "5"
+      },
+      "user2": {
+        "comment": "Delicious!",
+        "rating": "4"
+      }
+    },
+    "rating": 4.5,
+    "ingredients": [
+      "1/2 cup butter, softened",
+      "1 cup white sugar",
+      "2 eggs",
+      "1 teaspoon vanilla extract",
+      "2 cups all-purpose flour",
+      "2 teaspoons baking powder",
+      "1/2 teaspoon salt",
+      "1/2 cup milk",
+      "1 cup semisweet chocolate chips"
+    ]
+  },
+  {
+    "recipe_body": "Preheat oven to 350 degrees F (175 degrees C). Grease and flour a 9-inch round cake pan. In a large bowl, mix together flour, cocoa, sugar, baking powder, baking soda, and salt. Stir in milk, oil, eggs, and vanilla until well blended. Pour batter into prepared pan. Bake in preheated oven for 30 to 35 minutes, or until a toothpick inserted into the center comes out clean. Let cool before frosting.",
+    "recipe_title": "Chocolate Cake",
+    "email": "baker@example.com",
+    "submitted_date": "2024-03-19",
+    "reviews": {
+      "user1": {
+        "comment": "Delicious chocolate cake!",
+        "rating": "5"
+      },
+      "user2": {
+        "comment": "Great recipe!",
+        "rating": "4"
+      }
+    },
+    "rating": 4.5,
+    "ingredients": [
+      "1 3/4 cups all-purpose flour",
+      "3/4 cup unsweetened cocoa powder",
+      "2 cups white sugar",
+      "1 1/2 teaspoons baking powder",
+      "1 1/2 teaspoons baking soda",
+      "1 teaspoon salt",
+      "2 eggs",
+      "1 cup milk",
+      "1/2 cup vegetable oil",
+      "2 teaspoons vanilla extract"
+    ]
+  },
+  {
+    "recipe_body": "Preheat oven to 350 degrees F (175 degrees C). Grease a 9x13-inch baking dish. In a large bowl, mix together cooked rice, cooked black beans, corn, diced bell pepper, diced onion, diced tomatoes, diced green chilies, chili powder, cumin, salt, and pepper until well combined. Spread mixture evenly into prepared baking dish. Sprinkle with shredded cheese. Bake in preheated oven for 25 to 30 minutes, or until heated through and cheese is melted.",
+    "recipe_title": "Mexican Rice Casserole",
+    "email": "cook@example.com",
+    "submitted_date": "2024-03-19",
+    "reviews": {
+      "user1": {"comment": "Delicious casserole!", "rating": "5"},
+      "user2": {"comment": "Great recipe!", "rating": "4"}
+    },
+    "rating": 4.5,
+    "ingredients": [
+      "2 cups cooked rice",
+      "1 (15-ounce) can black beans, drained and rinsed",
+      "1 cup cooked corn",
+      "1 bell pepper, diced",
+      "1/2 cup diced onion",
+      "1 cup diced tomatoes",
+      "1 (4-ounce) can diced green chilies",
+      "1 teaspoon chili powder",
+      "1 teaspoon cumin",
+      "1/2 teaspoon salt",
+      "1/4 teaspoon ground black pepper",
+      "1 cup shredded cheese (cheddar or Mexican blend)"
+    ]
+  },
+  {
+    "recipe_body": "Preheat oven to 375 degrees F (190 degrees C). Grease a 9x13-inch baking dish. In a large bowl, mix together cooked pasta, marinara sauce, cooked sausage, diced bell pepper, diced onion, shredded cheese, Italian seasoning, garlic powder, salt, and pepper until well combined. Spread mixture evenly into prepared baking dish. Sprinkle with crushed crackers mixed with melted butter. Bake in preheated oven for 25 to 30 minutes, or until heated through and bubbly.",
+    "recipe_title": "Sausage and Pepper Pasta Bake",
+    "email": "chef@example.com",
+    "submitted_date": "2024-03-19",
+    "reviews": {
+      "user1": {"comment": "Delicious pasta bake!", "rating": "5"},
+      "user2": {"comment": "Great recipe!", "rating": "4"}
+    },
+    "rating": 4.5,
+    "ingredients": [
+      "16 ounces penne pasta, cooked and drained",
+      "3 cups marinara sauce",
+      "1 pound Italian sausage, cooked and crumbled",
+      "1 bell pepper, diced",
+      "1/2 cup diced onion",
+      "2 cups shredded mozzarella cheese",
+      "1 teaspoon Italian seasoning",
+      "1/2 teaspoon garlic powder",
+      "1/2 teaspoon salt",
+      "1/4 teaspoon ground black pepper",
+      "1 cup crushed butter crackers",
+      "1/4 cup melted butter"
+    ]
+  }
+
+]
